@@ -1,0 +1,155 @@
+CREATE TABLE Advertiser
+(
+  AdvertiserID INT NOT NULL,
+  AdvertiserName VARCHAR(255) NOT NULL,
+  AdvertiserEmail VARCHAR(255) NOT NULL,
+  AdvertiserLogo VARCHAR(255) NOT NULL,
+  PRIMARY KEY (AdvertiserID)
+);
+
+CREATE TABLE Listener
+(
+  ListenerID INT NOT NULL,
+  ListenerEmail VARCHAR(255),
+  PRIMARY KEY (ListenerID)
+);
+
+CREATE TABLE SongRequest
+(
+  SongName VARCHAR(255) NOT NULL,
+  SongArtist VARCHAR(255) NOT NULL,
+  SongGenre VARCHAR(255) NOT NULL,
+  SongRequestID INT NOT NULL,
+  ListenerID INT NOT NULL,
+  PRIMARY KEY (SongRequestID),
+  FOREIGN KEY (ListenerID) REFERENCES Listener(ListenerID)
+);
+
+CREATE TABLE Schedule
+(
+  ScheduleID INT NOT NULL,
+  PRIMARY KEY (ScheduleID)
+);
+
+CREATE TABLE Day
+(
+  ShowDay VARCHAR(9) NOT NULL,
+  ScheduleID INT NOT NULL,
+  PRIMARY KEY (ShowDay, ScheduleID),
+  FOREIGN KEY (ScheduleID) REFERENCES Schedule(ScheduleID)
+);
+
+CREATE TABLE Time
+(
+  ShowTime time NOT NULL,
+  ScheduleID INT NOT NULL,
+  PRIMARY KEY (ShowTime, ScheduleID),
+  FOREIGN KEY (ScheduleID) REFERENCES Schedule(ScheduleID)
+);
+
+CREATE TABLE Manager
+(
+  ManID INT NOT NULL,
+  ManFirstName VARCHAR(255) NOT NULL,
+  ManLastName VARCHAR(255) NOT NULL,
+  ManSwipeAccess CHAR(1) NOT NULL,
+  ManYear INT NOT NULL,
+  ManEmail VARCHAR(255) NOT NULL,
+  ScheduleID INT NOT NULL,
+  PRIMARY KEY (ManID),
+  FOREIGN KEY (ScheduleID) REFERENCES Schedule(ScheduleID)
+);
+
+CREATE TABLE DJ
+(
+  DJID INT NOT NULL,
+  DJFirstName VARCHAR(255) NOT NULL,
+  DJLastName VARCHAR(255) NOT NULL,
+  DJSwipeAccess CHAR(1) NOT NULL,
+  DJYear INT NOT NULL,
+  DJEmail VARCHAR(255) NOT NULL,
+  ManID INT NOT NULL,
+  PRIMARY KEY (DJID),
+  FOREIGN KEY (ManID) REFERENCES Manager(ManID)
+);
+
+CREATE TABLE Ad
+(
+  AdID INT NOT NULL,
+  AdDescription VARCHAR(255) NOT NULL,
+  AdLogo VARCHAR(255) NOT NULL,
+  StartDate DATE NOT NULL,
+  EndDate DATE NOT NULL,
+  TimesPerWeek INT NOT NULL,
+  AdvertiserID INT NOT NULL,
+  ManID INT NOT NULL,
+  PRIMARY KEY (AdID),
+  FOREIGN KEY (AdvertiserID) REFERENCES Advertiser(AdvertiserID),
+  FOREIGN KEY (ManID) REFERENCES Manager(ManID)
+);
+
+CREATE TABLE Show
+(
+  ShowID INT NOT NULL,
+  ShowName VARCHAR(255) NOT NULL,
+  ShowLogo VARCHAR(255) NOT NULL,
+  ShowBio VARCHAR(255) NOT NULL,
+  ScheduleID INT NOT NULL,
+  PRIMARY KEY (ShowID),
+  FOREIGN KEY (ScheduleID) REFERENCES Schedule(ScheduleID)
+);
+
+CREATE TABLE ShowCategory
+(
+  Category VARCHAR(255) NOT NULL,
+  ShowID INT NOT NULL,
+  PRIMARY KEY (Category, ShowID),
+  FOREIGN KEY (ShowID) REFERENCES Show(ShowID)
+);
+
+CREATE TABLE SocialMedia
+(
+  SocialMediaAccount VARCHAR(255),
+  ShowID INT NOT NULL,
+  PRIMARY KEY (SocialMediaAccount, ShowID),
+  FOREIGN KEY (ShowID) REFERENCES Show(ShowID)
+);
+
+CREATE TABLE Views
+(
+  DJID INT NOT NULL,
+  SongRequestID INT NOT NULL,
+  PRIMARY KEY (DJID, SongRequestID),
+  FOREIGN KEY (DJID) REFERENCES DJ(DJID),
+  FOREIGN KEY (SongRequestID) REFERENCES SongRequest(SongRequestID)
+);
+
+CREATE TABLE Hosts
+(
+  DJID INT NOT NULL,
+  ShowID INT NOT NULL,
+  PRIMARY KEY (DJID, ShowID),
+  FOREIGN KEY (DJID) REFERENCES DJ(DJID),
+  FOREIGN KEY (ShowID) REFERENCES Show(ShowID)
+);
+
+CREATE TABLE ShowRequest
+(
+  ShowRequestID INT NOT NULL,
+  ReqShowName VARCHAR(255) NOT NULL,
+  ReqShowLogo VARCHAR(255) NOT NULL,
+  ReqShowBio VARCHAR(255) NOT NULL,
+  DJID INT NOT NULL,
+  ManID INT NOT NULL,
+  PRIMARY KEY (ShowRequestID),
+  FOREIGN KEY (DJID) REFERENCES DJ(DJID),
+  FOREIGN KEY (ManID) REFERENCES Manager(ManID)
+);
+
+CREATE TABLE ReqShowCategory
+(
+  ReqCategory VARCHAR(255) NOT NULL,
+  ShowRequestID INT NOT NULL,
+  PRIMARY KEY (ReqCategory, ShowRequestID),
+  FOREIGN KEY (ShowRequestID) REFERENCES ShowRequest(ShowRequestID)
+);
