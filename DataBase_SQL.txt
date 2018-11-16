@@ -1,0 +1,357 @@
+
+
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (1, 'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.', 'http://dummyimage.com/177x184.png/ff4444/ffffff', '9/14/2018', '5/19/2019', 3, 1, 1, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (2, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'http://dummyimage.com/188x103.jpg/cc0000/ffffff', '10/12/2018', '2/2/2019', 3, 2, 2, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (3, 'Donec dapibus. Duis at velit eu est congue elementum.', 'http://dummyimage.com/223x182.png/dddddd/000000', '10/3/2018', '3/6/2019', 3, 3, 3, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (4, 'Maecenas rhoncus aliquam lacus.', 'http://dummyimage.com/141x132.png/5fa2dd/ffffff', '10/19/2018', '3/9/2019', 3, 4, 4, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (5, 'Aenean fermentum.', 'http://dummyimage.com/110x199.bmp/cc0000/ffffff', '10/19/2018', '6/5/2019', 1, 5, 5, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (6, 'Nunc nisl.', 'http://dummyimage.com/240x249.bmp/ff4444/ffffff', '10/16/2018', '5/18/2019', 4, 6, 6, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (7, 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 'http://dummyimage.com/170x211.png/cc0000/ffffff', '10/5/2018', '1/23/2019', 1, 7, 7, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (8, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 'http://dummyimage.com/172x218.png/ff4444/ffffff', '11/2/2018', '1/10/2019', 1, 8, 8, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (9, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 'http://dummyimage.com/159x138.jpg/dddddd/000000', '10/25/2018', '3/25/2019', 1, 9, 9, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (10, 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.', 'http://dummyimage.com/108x201.bmp/dddddd/000000', '11/4/2018', '5/9/2019', 3, 10, 10, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (11, 'Nulla justo.', 'http://dummyimage.com/163x167.bmp/cc0000/ffffff', '11/4/2018', '4/17/2019', 5, 11, 11, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (12, 'Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'http://dummyimage.com/167x134.jpg/dddddd/000000', '9/22/2018', '6/6/2019', 2, 12, 12, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (13, 'Morbi a ipsum.', 'http://dummyimage.com/233x161.jpg/cc0000/ffffff', '11/4/2018', '2/22/2019', 5, 13, 13, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (14, 'Donec posuere metus vitae ipsum. Aliquam non mauris.', 'http://dummyimage.com/209x236.png/5fa2dd/ffffff', '9/29/2018', '5/31/2019', 1, 14, 14, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (15, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'http://dummyimage.com/241x138.jpg/dddddd/000000', '10/26/2018', '5/10/2019', 1, 15, 15, false);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (16, 'Donec semper sapien a libero. Nam dui.', 'http://dummyimage.com/240x221.bmp/5fa2dd/ffffff', '10/16/2018', '5/18/2019', 4, 16, 16, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (17, 'Praesent blandit lacinia erat.', 'http://dummyimage.com/102x115.png/dddddd/000000', '10/30/2018', '4/23/2019', 5, 17, 17, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (18, 'Duis consequat dui nec nisi volutpat eleifend.', 'http://dummyimage.com/171x213.jpg/cc0000/ffffff', '10/28/2018', '5/29/2019', 3, 18, 18, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (19, 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'http://dummyimage.com/204x213.jpg/dddddd/000000', '9/18/2018', '1/28/2019', 5, 19, 19, true);
+insert into ad (AdID, AdDescription, AdLogo, StartDate, EndDate, TimesPerWeek, AdvertiserID, ManID, AdApproved) values (20, 'Integer non velit.', 'http://dummyimage.com/184x242.bmp/5fa2dd/ffffff', '9/22/2018', '3/22/2019', 5, 20, 20, false);
+
+
+
+
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (1, 'Gottfried Shovel', 'gshovel0@examiner.com', 'http://dummyimage.com/175x150.png/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (2, 'Trudi Bartley', 'tbartley1@digg.com', 'http://dummyimage.com/207x229.jpg/ff4444/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (3, 'Beverie Compford', 'bcompford2@wunderground.com', 'http://dummyimage.com/208x144.bmp/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (4, 'Mikey Bilborough', 'mbilborough3@slashdot.org', 'http://dummyimage.com/144x245.png/ff4444/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (5, 'Floyd Kleyn', 'fkleyn4@timesonline.co.uk', 'http://dummyimage.com/176x220.bmp/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (6, 'Annis Sebley', 'asebley5@nbcnews.com', 'http://dummyimage.com/107x130.png/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (7, 'Sindee McGarvey', 'smcgarvey6@nih.gov', 'http://dummyimage.com/225x132.bmp/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (8, 'Hans Hembrow', 'hhembrow7@cbslocal.com', 'http://dummyimage.com/191x249.jpg/ff4444/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (9, 'Bastien McCreery', 'bmccreery8@usa.gov', 'http://dummyimage.com/231x175.jpg/5fa2dd/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (10, 'Freida Clemits', 'fclemits9@github.com', 'http://dummyimage.com/122x185.bmp/dddddd/000000');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (11, 'Nessie Handy', 'nhandya@tumblr.com', 'http://dummyimage.com/107x207.png/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (12, 'Jocko Brookes', 'jbrookesb@stanford.edu', 'http://dummyimage.com/132x226.png/dddddd/000000');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (13, 'Elka Circuit', 'ecircuitc@apple.com', 'http://dummyimage.com/194x189.png/5fa2dd/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (14, 'Ellary Dunks', 'edunksd@surveymonkey.com', 'http://dummyimage.com/156x119.bmp/cc0000/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (15, 'Natalie Petrashkov', 'npetrashkove@g.co', 'http://dummyimage.com/113x229.jpg/5fa2dd/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (16, 'Colas Gorrick', 'cgorrickf@msu.edu', 'http://dummyimage.com/226x180.bmp/dddddd/000000');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (17, 'Yvonne Bonds', 'ybondsg@github.io', 'http://dummyimage.com/195x178.bmp/dddddd/000000');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (18, 'Lauralee Ranken', 'lrankenh@t.co', 'http://dummyimage.com/222x108.bmp/5fa2dd/ffffff');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (19, 'Killie Hrinchenko', 'khrinchenkoi@smugmug.com', 'http://dummyimage.com/195x134.bmp/dddddd/000000');
+insert into advertiser (AdvertiserID, AdvertiserName, AdvertiserEmail, AdvertiserLogo) values (20, 'Staford Firmage', 'sfirmagej@jugem.jp', 'http://dummyimage.com/198x205.png/dddddd/000000');
+
+
+
+
+
+
+
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('molestie hendrerit', 'next generation', 'Documentary', 1);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('sit amet', 'Upgradable', 'Comedy|Mystery', 2);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('lacinia eget tincidunt eget', 'reciprocal', 'Documentary', 3);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('donec ut dolor morbi', 'multimedia', 'Comedy', 4);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('consectetuer adipiscing elit', 'transitional', 'Comedy|Horror', 5);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('quisque erat', 'Secured', 'Drama|Musical|Romance', 6);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('in faucibus orci', 'framework', 'Action|Drama', 7);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('pretium iaculis diam erat', 'optimal', 'Comedy', 8);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('aenean fermentum donec', 'synergy', 'Comedy|Drama', 9);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('congue vivamus metus arcu', 'static', 'Crime|Drama|Film-Noir', 10);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('turpis eget elit sodales', '4th generation', 'Drama', 11);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('mi sit amet lobortis', 'responsive', 'Animation', 12);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('tincidunt eu', 'Devolved', 'Animation|Horror|Mystery|Thriller', 13);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('felis fusce posuere felis', 'Virtual', 'Comedy', 14);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('turpis eget', 'real-time', 'Adventure|Drama|Fantasy|Musical|Romance', 15);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('et ultrices posuere', 'upward-trending', 'Comedy', 16);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('pulvinar nulla pede', 'non-volatile', 'Children|Comedy|Fantasy', 17);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('suspendisse potenti cras', 'coherent', 'Animation|Children|Fantasy|Sci-Fi', 18);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('at ipsum ac tellus', 'Balanced', 'Comedy|Romance', 19);
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID) values ('amet eros suspendisse', 'Organized', 'Drama', 20);
+
+
+
+
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (1, 'Jeanna', 'Greenough', false, 2019, 'jgreenough0@marriott.com', 'DchJ0ZQ', 15);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (2, 'Meaghan', 'Elkin', false, 2018, 'melkin1@wix.com', 'TaHmcsVAEbq', 5);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (3, 'Corny', 'Tarn', true, 2019, 'ctarn2@mlb.com', 'ifgSOc', 6);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (4, 'Whitney', 'Vannoni', false, 2018, 'wvannoni3@1688.com', 'pdkMJE7WkNm', 14);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (5, 'Blanch', 'Wearne', false, 2019, 'bwearne4@globo.com', 'oC3ZRpskXh', 20);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (6, 'Natty', 'Rumin', true, 2020, 'nrumin5@patch.com', 'FYKD0PNPvzM', 17);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (7, 'Jennie', 'Gaudin', true, 2019, 'jgaudin6@google.de', 'bQtToFOY', 19);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (8, 'Forster', 'Magor', false, 2019, 'fmagor7@gizmodo.com', 'VOoDZnshv', 8);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (9, 'Drona', 'Tarbert', true, 2021, 'dtarbert8@cafepress.com', 'JonADhj', 12);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (10, 'Ganny', 'Stampfer', false, 2019, 'gstampfer9@samsung.com', 'VvWBE1YkHcC', 14);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (11, 'Tobye', 'Stainton - Skinn', true, 2018, 'tstaintonskinna@sohu.com', '01g4ORPujwdg', 14);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (12, 'Emelina', 'Eubank', true, 2018, 'eeubankb@craigslist.org', 'DGxBD0cseR63', 12);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (13, 'Bernardina', 'Crookes', false, 2019, 'bcrookesc@qq.com', 'DlkBf6', 3);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (14, 'Adorne', 'Rowbury', false, 2019, 'arowburyd@fotki.com', '21TcB11l', 12);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (15, 'Ardelis', 'Mussolini', false, 2022, 'amussolinie@rambler.ru', 'Yl9Cd16QcNdC', 2);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (16, 'Sheela', 'Vicent', false, 2019, 'svicentf@altervista.org', '32WJbm', 1);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (17, 'Ingamar', 'Baldock', false, 2021, 'ibaldockg@geocities.com', '6sdRw1', 18);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (18, 'Kelwin', 'Burnhard', false, 2021, 'kburnhardh@pcworld.com', 'wJacAo', 6);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (19, 'Hazel', 'Hatrick', true, 2022, 'hhatricki@eventbrite.com', 'GTrIlR', 12);
+insert into dj (DJID, DJFirstName, DJLastName, DJSwipeAccess, DJYear, DJEmail, DJPassword, ManID) values (20, 'Ax', 'Munehay', true, 2022, 'amunehayj@vk.com', 'RF2Wxo3sOetq', 9);
+
+
+
+
+
+
+insert into hosts (DJID, ShowID) values (2, 1);
+insert into hosts (DJID, ShowID) values (1, 2);
+insert into hosts (DJID, ShowID) values (19, 3);
+insert into hosts (DJID, ShowID) values (20, 4);
+insert into hosts (DJID, ShowID) values (16, 5);
+insert into hosts (DJID, ShowID) values (9, 6);
+insert into hosts (DJID, ShowID) values (17, 7);
+insert into hosts (DJID, ShowID) values (20, 8);
+insert into hosts (DJID, ShowID) values (1, 9);
+insert into hosts (DJID, ShowID) values (8, 10);
+insert into hosts (DJID, ShowID) values (6, 11);
+insert into hosts (DJID, ShowID) values (4, 12);
+insert into hosts (DJID, ShowID) values (10, 13);
+insert into hosts (DJID, ShowID) values (20, 14);
+insert into hosts (DJID, ShowID) values (13, 15);
+insert into hosts (DJID, ShowID) values (17, 16);
+insert into hosts (DJID, ShowID) values (4, 17);
+insert into hosts (DJID, ShowID) values (4, 18);
+insert into hosts (DJID, ShowID) values (10, 19);
+insert into hosts (DJID, ShowID) values (1, 20);
+
+
+
+
+
+insert into listener (ListenerEmail) values ('ebroderick0@chronoengine.com');
+insert into listener (ListenerEmail) values ('clawrenson1@xrea.com');
+insert into listener (ListenerEmail) values ('kmassow2@abc.net.au');
+insert into listener (ListenerEmail) values ('mcanning3@usa.gov');
+insert into listener (ListenerEmail) values ('gdutteridge4@bing.com');
+insert into listener (ListenerEmail) values ('pcurnok5@walmart.com');
+insert into listener (ListenerEmail) values ('ngillies6@cbslocal.com');
+insert into listener (ListenerEmail) values ('tingerman7@slideshare.net');
+insert into listener (ListenerEmail) values ('hzouch8@shutterfly.com');
+insert into listener (ListenerEmail) values ('twestney9@unc.edu');
+insert into listener (ListenerEmail) values ('aballingera@slashdot.org');
+insert into listener (ListenerEmail) values ('owilcinskisb@paginegialle.it');
+insert into listener (ListenerEmail) values ('vreedec@ca.gov');
+insert into listener (ListenerEmail) values ('charrhyd@newsvine.com');
+insert into listener (ListenerEmail) values ('freisine@edublogs.org');
+insert into listener (ListenerEmail) values ('pvizef@ca.gov');
+insert into listener (ListenerEmail) values ('istronoughg@marketwatch.com');
+insert into listener (ListenerEmail) values ('aschlagh@narod.ru');
+insert into listener (ListenerEmail) values ('fdeambrosii@answers.com');
+insert into listener (ListenerEmail) values ('dsimisonj@army.mil');
+
+
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (1, 'Bebe', 'Gaye', false, 2021, 'bgaye0@hibu.com', 'yzZJ6hZM');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (2, 'Melinde', 'Pine', true, 2022, 'mpine1@guardian.co.uk', 'aitpCroZBuK');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (3, 'Trueman', 'Sowersby', false, 2018, 'tsowersby2@netvibes.com', 'cv77LQsiNJx');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (4, 'Margie', 'Mully', false, 2018, 'mmully3@nsw.gov.au', 'ZGWnEG2y53r');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (5, 'Damaris', 'Diboll', false, 2020, 'ddiboll4@reuters.com', 'sfWLy4VTf');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (6, 'Lettie', 'Van Hault', true, 2021, 'lvanhault5@cnet.com', 'ZmIMzSSYE');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (7, 'Orren', 'Costigan', true, 2021, 'ocostigan6@hostgator.com', 'DvgColWc');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (8, 'Ethel', 'Nel', true, 2018, 'enel7@example.com', 'kd17AnEdQYGp');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (9, 'Jay', 'Hamflett', true, 2022, 'jhamflett8@webnode.com', 'mIw159a');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (10, 'Hurleigh', 'Ulrik', true, 2018, 'hulrik9@shinystat.com', 'Pk7IGi');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (11, 'Vergil', 'Marwood', false, 2019, 'vmarwooda@discovery.com', '5vyELr');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (12, 'Briny', 'Keats', true, 2021, 'bkeatsb@twitpic.com', 'AJE0SkurWr');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (13, 'Hayden', 'Lafuente', true, 2019, 'hlafuentec@4shared.com', '8LLbtKt83YN');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (14, 'Sheelagh', 'Greedyer', false, 2021, 'sgreedyerd@wikispaces.com', 'RUsjiVUq');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (15, 'Armand', 'Pettersen', true, 2019, 'apettersene@washingtonpost.com', 'OUQ1i6XvvMV');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (16, 'Kaylil', 'Sulley', true, 2022, 'ksulleyf@google.com.au', '5Oa9siNED2M4');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (17, 'Milena', 'Bryson', true, 2018, 'mbrysong@so-net.ne.jp', 'jxQUk1gL');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (18, 'Dexter', 'Cracker', true, 2019, 'dcrackerh@amazon.co.jp', '1NnFDdenhAQ');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (19, 'Mariellen', 'Pleasance', true, 2020, 'mpleasancei@edublogs.org', '01crYbBmgSNh');
+insert into manager (ManID, ManFirstName, ManLastName, ManSwipeAccess, ManYear, ManEmail, ManPassword) values (20, 'Robby', 'Stickland', false, 2022, 'rsticklandj@kickstarter.com', 'f90zh6FnV4k');
+
+
+
+
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (1, 'Comedy', 1);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (2, 'Drama', 2);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (3, 'Comedy|Drama|Musical', 3);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (4, 'Drama', 4);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (5, 'Documentary', 5);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (6, 'Horror|Thriller', 6);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (7, 'Drama', 7);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (8, 'Fantasy|Horror|Thriller', 8);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (9, 'Adventure|Animation|Children|Fantasy|Musical|Romance', 9);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (10, 'Drama', 10);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (11, 'Comedy|Drama', 11);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (12, 'Drama', 12);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (13, 'Fantasy|Musical', 13);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (14, 'Documentary', 14);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (15, 'Action|Comedy', 15);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (16, 'Comedy', 16);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (17, 'Drama|Sci-Fi', 17);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (18, 'Comedy', 18);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (19, 'Drama|Romance|Thriller', 19);
+insert into reqshowcategory (ReqShowCategoryID, ReqCategory, ShowRequestID) values (20, 'Drama', 20);
+
+
+
+
+
+
+
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://umn.edu/volutpat/convallis/morbi/odio/odio.js?luctus=sed&et=vestibulum&ultrices=sit&posuere=amet&cubilia=cursus&curae=id&duis=turpis&faucibus=integer&accumsan=aliquet&odio=massa&curabitur=id&convallis=lobortis&duis=convallis&consequat=tortor&dui=risus&nec=dapibus&nisi=augue&volutpat=vel&eleifend=accumsan&donec=tellus&ut=nisi&dolor=eu&morbi=orci&vel=mauris&lectus=lacinia&in=sapien&quam=quis&fringilla=libero&rhoncus=nullam&mauris=sit&enim=amet&leo=turpis&rhoncus=elementum&sed=ligula&vestibulum=vehicula&sit=consequat&amet=morbi&cursus=a&id=ipsum&turpis=integer&integer=a&aliquet=nibh&massa=in&id=quis&lobortis=justo&convallis=maecenas&tortor=rhoncus&risus=aliquam&dapibus=lacus&augue=morbi&vel=quis&accumsan=tortor&tellus=id&nisi=nulla&eu=ultrices&orci=aliquet&mauris=maecenas&lacinia=leo&sapien=odio&quis=condimentum&libero=id&nullam=luctus&sit=nec&amet=molestie&turpis=sed&elementum=justo&ligula=pellentesque&vehicula=viverra&consequat=pede&morbi=ac&a=diam&ipsum=cras&integer=pellentesque&a=volutpat&nibh=dui&in=maecenas&quis=tristique&justo=est&maecenas=et&rhoncus=tempus&aliquam=semper&lacus=est&morbi=quam&quis=pharetra&tortor=magna&id=ac&nulla=consequat&ultrices=metus&aliquet=sapien&maecenas=ut&leo=nunc&odio=vestibulum&condimentum=ante&id=ipsum&luctus=primis&nec=in&molestie=faucibus&sed=orci', 1);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://wordpress.com/ut/erat/curabitur/gravida/nisi.jsp?diam=ultrices&vitae=posuere&quam=cubilia&suspendisse=curae&potenti=nulla&nullam=dapibus&porttitor=dolor&lacus=vel&at=est&turpis=donec&donec=odio&posuere=justo&metus=sollicitudin&vitae=ut&ipsum=suscipit&aliquam=a&non=feugiat&mauris=et&morbi=eros&non=vestibulum&lectus=ac&aliquam=est&sit=lacinia&amet=nisi&diam=venenatis&in=tristique&magna=fusce&bibendum=congue&imperdiet=diam&nullam=id&orci=ornare&pede=imperdiet&venenatis=sapien&non=urna&sodales=pretium&sed=nisl&tincidunt=ut&eu=volutpat&felis=sapien&fusce=arcu&posuere=sed&felis=augue&sed=aliquam&lacus=erat&morbi=volutpat&sem=in&mauris=congue&laoreet=etiam&ut=justo&rhoncus=etiam&aliquet=pretium&pulvinar=iaculis&sed=justo&nisl=in&nunc=hac&rhoncus=habitasse&dui=platea&vel=dictumst&sem=etiam&sed=faucibus&sagittis=cursus&nam=urna&congue=ut&risus=tellus&semper=nulla&porta=ut&volutpat=erat&quam=id&pede=mauris&lobortis=vulputate&ligula=elementum&sit=nullam&amet=varius&eleifend=nulla&pede=facilisi&libero=cras&quis=non&orci=velit', 2);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://mac.com/iaculis/congue.xml?proin=duis&at=bibendum&turpis=morbi&a=non&pede=quam&posuere=nec&nonummy=dui&integer=luctus&non=rutrum&velit=nulla&donec=tellus&diam=in&neque=sagittis&vestibulum=dui&eget=vel&vulputate=nisl&ut=duis&ultrices=ac&vel=nibh&augue=fusce&vestibulum=lacus&ante=purus&ipsum=aliquet&primis=at&in=feugiat&faucibus=non&orci=pretium&luctus=quis&et=lectus&ultrices=suspendisse&posuere=potenti&cubilia=in&curae=eleifend&donec=quam&pharetra=a&magna=odio&vestibulum=in&aliquet=hac&ultrices=habitasse&erat=platea&tortor=dictumst&sollicitudin=maecenas&mi=ut&sit=massa&amet=quis&lobortis=augue&sapien=luctus&sapien=tincidunt&non=nulla&mi=mollis&integer=molestie&ac=lorem&neque=quisque&duis=ut&bibendum=erat&morbi=curabitur&non=gravida&quam=nisi&nec=at&dui=nibh&luctus=in&rutrum=hac&nulla=habitasse&tellus=platea&in=dictumst&sagittis=aliquam&dui=augue&vel=quam&nisl=sollicitudin&duis=vitae&ac=consectetuer&nibh=eget&fusce=rutrum&lacus=at&purus=lorem&aliquet=integer&at=tincidunt&feugiat=ante&non=vel&pretium=ipsum&quis=praesent&lectus=blandit&suspendisse=lacinia&potenti=erat&in=vestibulum&eleifend=sed&quam=magna', 3);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://stumbleupon.com/orci/vehicula/condimentum/curabitur/in.js?volutpat=in&in=porttitor&congue=pede&etiam=justo&justo=eu&etiam=massa&pretium=donec&iaculis=dapibus&justo=duis&in=at&hac=velit&habitasse=eu&platea=est&dictumst=congue&etiam=elementum&faucibus=in&cursus=hac&urna=habitasse&ut=platea&tellus=dictumst&nulla=morbi&ut=vestibulum&erat=velit&id=id&mauris=pretium&vulputate=iaculis&elementum=diam&nullam=erat&varius=fermentum&nulla=justo&facilisi=nec&cras=condimentum&non=neque&velit=sapien&nec=placerat&nisi=ante&vulputate=nulla&nonummy=justo&maecenas=aliquam&tincidunt=quis&lacus=turpis&at=eget&velit=elit&vivamus=sodales&vel=scelerisque&nulla=mauris&eget=sit&eros=amet&elementum=eros&pellentesque=suspendisse&quisque=accumsan&porta=tortor&volutpat=quis', 4);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://51.la/quam/a/odio.jsp?potenti=in&nullam=blandit&porttitor=ultrices&lacus=enim&at=lorem&turpis=ipsum&donec=dolor&posuere=sit&metus=amet&vitae=consectetuer&ipsum=adipiscing&aliquam=elit&non=proin&mauris=interdum&morbi=mauris&non=non&lectus=ligula&aliquam=pellentesque&sit=ultrices&amet=phasellus', 5);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://admin.ch/consequat/morbi/a.js?quam=sit&fringilla=amet&rhoncus=turpis&mauris=elementum&enim=ligula&leo=vehicula&rhoncus=consequat&sed=morbi&vestibulum=a&sit=ipsum&amet=integer&cursus=a&id=nibh&turpis=in&integer=quis&aliquet=justo&massa=maecenas&id=rhoncus&lobortis=aliquam&convallis=lacus&tortor=morbi&risus=quis&dapibus=tortor&augue=id&vel=nulla&accumsan=ultrices&tellus=aliquet&nisi=maecenas&eu=leo&orci=odio&mauris=condimentum&lacinia=id&sapien=luctus&quis=nec&libero=molestie&nullam=sed&sit=justo&amet=pellentesque&turpis=viverra&elementum=pede&ligula=ac&vehicula=diam&consequat=cras&morbi=pellentesque&a=volutpat&ipsum=dui&integer=maecenas&a=tristique&nibh=est&in=et&quis=tempus&justo=semper&maecenas=est&rhoncus=quam&aliquam=pharetra&lacus=magna&morbi=ac&quis=consequat&tortor=metus&id=sapien&nulla=ut&ultrices=nunc&aliquet=vestibulum&maecenas=ante&leo=ipsum&odio=primis&condimentum=in&id=faucibus&luctus=orci&nec=luctus&molestie=et&sed=ultrices', 6);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://is.gd/vestibulum/sagittis/sapien.jpg?mattis=id&nibh=nulla&ligula=ultrices&nec=aliquet&sem=maecenas&duis=leo&aliquam=odio&convallis=condimentum&nunc=id&proin=luctus&at=nec&turpis=molestie&a=sed&pede=justo&posuere=pellentesque&nonummy=viverra&integer=pede&non=ac&velit=diam&donec=cras&diam=pellentesque&neque=volutpat&vestibulum=dui&eget=maecenas&vulputate=tristique&ut=est&ultrices=et&vel=tempus&augue=semper&vestibulum=est&ante=quam&ipsum=pharetra&primis=magna&in=ac&faucibus=consequat&orci=metus&luctus=sapien&et=ut&ultrices=nunc&posuere=vestibulum&cubilia=ante&curae=ipsum&donec=primis&pharetra=in&magna=faucibus&vestibulum=orci&aliquet=luctus&ultrices=et&erat=ultrices&tortor=posuere&sollicitudin=cubilia&mi=curae&sit=mauris&amet=viverra&lobortis=diam&sapien=vitae', 7);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://state.gov/suspendisse/potenti/in/eleifend/quam.json?cum=odio&sociis=elementum&natoque=eu&penatibus=interdum&et=eu&magnis=tincidunt&dis=in&parturient=leo&montes=maecenas&nascetur=pulvinar&ridiculus=lobortis&mus=est&etiam=phasellus&vel=sit&augue=amet&vestibulum=erat&rutrum=nulla&rutrum=tempus&neque=vivamus&aenean=in&auctor=felis&gravida=eu&sem=sapien&praesent=cursus&id=vestibulum&massa=proin&id=eu&nisl=mi&venenatis=nulla&lacinia=ac&aenean=enim&sit=in&amet=tempor&justo=turpis&morbi=nec&ut=euismod&odio=scelerisque&cras=quam&mi=turpis&pede=adipiscing&malesuada=lorem&in=vitae&imperdiet=mattis&et=nibh&commodo=ligula&vulputate=nec&justo=sem&in=duis&blandit=aliquam&ultrices=convallis&enim=nunc&lorem=proin&ipsum=at&dolor=turpis&sit=a&amet=pede&consectetuer=posuere&adipiscing=nonummy&elit=integer&proin=non&interdum=velit&mauris=donec&non=diam&ligula=neque&pellentesque=vestibulum&ultrices=eget&phasellus=vulputate&id=ut&sapien=ultrices&in=vel&sapien=augue&iaculis=vestibulum&congue=ante', 8);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://moonfruit.com/sit/amet/diam/in/magna.xml?sed=vel&accumsan=lectus&felis=in&ut=quam&at=fringilla&dolor=rhoncus', 9);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://rediff.com/justo/lacinia.jpg?ipsum=congue&primis=elementum&in=in&faucibus=hac&orci=habitasse&luctus=platea&et=dictumst&ultrices=morbi&posuere=vestibulum&cubilia=velit&curae=id&nulla=pretium&dapibus=iaculis&dolor=diam', 10);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://rediff.com/libero/quis/orci/nullam/molestie/nibh.json?non=sollicitudin&sodales=ut&sed=suscipit&tincidunt=a&eu=feugiat&felis=et&fusce=eros&posuere=vestibulum&felis=ac&sed=est&lacus=lacinia&morbi=nisi&sem=venenatis&mauris=tristique&laoreet=fusce&ut=congue&rhoncus=diam&aliquet=id&pulvinar=ornare&sed=imperdiet&nisl=sapien&nunc=urna&rhoncus=pretium&dui=nisl&vel=ut&sem=volutpat&sed=sapien&sagittis=arcu&nam=sed&congue=augue&risus=aliquam&semper=erat&porta=volutpat&volutpat=in&quam=congue&pede=etiam&lobortis=justo&ligula=etiam&sit=pretium&amet=iaculis&eleifend=justo&pede=in&libero=hac&quis=habitasse&orci=platea&nullam=dictumst&molestie=etiam&nibh=faucibus&in=cursus&lectus=urna&pellentesque=ut&at=tellus&nulla=nulla&suspendisse=ut&potenti=erat&cras=id&in=mauris&purus=vulputate&eu=elementum&magna=nullam&vulputate=varius&luctus=nulla&cum=facilisi&sociis=cras&natoque=non&penatibus=velit', 11);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://youku.com/condimentum/neque/sapien.jsp?rutrum=mauris&nulla=laoreet&tellus=ut&in=rhoncus&sagittis=aliquet&dui=pulvinar&vel=sed&nisl=nisl&duis=nunc&ac=rhoncus&nibh=dui&fusce=vel&lacus=sem&purus=sed&aliquet=sagittis&at=nam&feugiat=congue&non=risus&pretium=semper&quis=porta&lectus=volutpat&suspendisse=quam&potenti=pede&in=lobortis&eleifend=ligula&quam=sit&a=amet&odio=eleifend&in=pede&hac=libero&habitasse=quis&platea=orci&dictumst=nullam&maecenas=molestie&ut=nibh&massa=in&quis=lectus&augue=pellentesque&luctus=at&tincidunt=nulla&nulla=suspendisse&mollis=potenti&molestie=cras&lorem=in&quisque=purus&ut=eu&erat=magna&curabitur=vulputate&gravida=luctus&nisi=cum&at=sociis&nibh=natoque&in=penatibus&hac=et&habitasse=magnis&platea=dis&dictumst=parturient&aliquam=montes&augue=nascetur', 12);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://netvibes.com/vestibulum.js?at=morbi&feugiat=non&non=lectus&pretium=aliquam&quis=sit&lectus=amet&suspendisse=diam&potenti=in&in=magna&eleifend=bibendum&quam=imperdiet&a=nullam&odio=orci&in=pede&hac=venenatis&habitasse=non&platea=sodales&dictumst=sed&maecenas=tincidunt&ut=eu&massa=felis&quis=fusce&augue=posuere&luctus=felis&tincidunt=sed&nulla=lacus&mollis=morbi&molestie=sem&lorem=mauris&quisque=laoreet&ut=ut&erat=rhoncus&curabitur=aliquet&gravida=pulvinar&nisi=sed&at=nisl&nibh=nunc&in=rhoncus&hac=dui&habitasse=vel&platea=sem&dictumst=sed&aliquam=sagittis&augue=nam&quam=congue&sollicitudin=risus&vitae=semper&consectetuer=porta&eget=volutpat&rutrum=quam&at=pede&lorem=lobortis&integer=ligula&tincidunt=sit&ante=amet&vel=eleifend&ipsum=pede&praesent=libero&blandit=quis&lacinia=orci&erat=nullam&vestibulum=molestie&sed=nibh&magna=in&at=lectus&nunc=pellentesque&commodo=at&placerat=nulla&praesent=suspendisse&blandit=potenti&nam=cras&nulla=in&integer=purus&pede=eu&justo=magna&lacinia=vulputate&eget=luctus&tincidunt=cum&eget=sociis&tempus=natoque&vel=penatibus&pede=et&morbi=magnis&porttitor=dis&lorem=parturient', 13);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://multiply.com/nullam/orci/pede/venenatis.js?in=et&felis=magnis&donec=dis&semper=parturient&sapien=montes&a=nascetur&libero=ridiculus&nam=mus&dui=vivamus&proin=vestibulum&leo=sagittis&odio=sapien&porttitor=cum&id=sociis&consequat=natoque&in=penatibus&consequat=et&ut=magnis&nulla=dis&sed=parturient&accumsan=montes&felis=nascetur&ut=ridiculus&at=mus&dolor=etiam&quis=vel&odio=augue&consequat=vestibulum&varius=rutrum&integer=rutrum&ac=neque&leo=aenean&pellentesque=auctor&ultrices=gravida&mattis=sem&odio=praesent&donec=id&vitae=massa&nisi=id&nam=nisl&ultrices=venenatis&libero=lacinia&non=aenean&mattis=sit&pulvinar=amet&nulla=justo&pede=morbi&ullamcorper=ut&augue=odio&a=cras&suscipit=mi&nulla=pede&elit=malesuada&ac=in&nulla=imperdiet&sed=et&vel=commodo&enim=vulputate&sit=justo&amet=in&nunc=blandit&viverra=ultrices&dapibus=enim&nulla=lorem&suscipit=ipsum&ligula=dolor', 14);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://phpbb.com/fusce/posuere/felis/sed/lacus.json?in=proin&faucibus=leo&orci=odio&luctus=porttitor&et=id&ultrices=consequat&posuere=in&cubilia=consequat&curae=ut&nulla=nulla&dapibus=sed&dolor=accumsan&vel=felis&est=ut&donec=at&odio=dolor&justo=quis&sollicitudin=odio', 15);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://alibaba.com/natoque/penatibus/et/magnis/dis.json?lectus=a', 16);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://baidu.com/nam/tristique/tortor.xml?sem=integer&praesent=non&id=velit&massa=donec&id=diam&nisl=neque&venenatis=vestibulum&lacinia=eget&aenean=vulputate&sit=ut&amet=ultrices&justo=vel&morbi=augue&ut=vestibulum&odio=ante&cras=ipsum&mi=primis&pede=in&malesuada=faucibus&in=orci&imperdiet=luctus&et=et&commodo=ultrices&vulputate=posuere&justo=cubilia&in=curae&blandit=donec&ultrices=pharetra&enim=magna&lorem=vestibulum&ipsum=aliquet&dolor=ultrices&sit=erat&amet=tortor&consectetuer=sollicitudin&adipiscing=mi&elit=sit&proin=amet&interdum=lobortis&mauris=sapien&non=sapien&ligula=non&pellentesque=mi&ultrices=integer&phasellus=ac&id=neque&sapien=duis&in=bibendum&sapien=morbi&iaculis=non&congue=quam&vivamus=nec&metus=dui&arcu=luctus', 17);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://yolasite.com/eget/eros.js?platea=est&dictumst=lacinia&maecenas=nisi&ut=venenatis&massa=tristique&quis=fusce&augue=congue&luctus=diam&tincidunt=id&nulla=ornare&mollis=imperdiet&molestie=sapien&lorem=urna&quisque=pretium&ut=nisl&erat=ut&curabitur=volutpat&gravida=sapien&nisi=arcu&at=sed&nibh=augue&in=aliquam&hac=erat&habitasse=volutpat&platea=in&dictumst=congue&aliquam=etiam&augue=justo&quam=etiam&sollicitudin=pretium&vitae=iaculis&consectetuer=justo&eget=in&rutrum=hac&at=habitasse&lorem=platea&integer=dictumst&tincidunt=etiam&ante=faucibus&vel=cursus&ipsum=urna&praesent=ut&blandit=tellus&lacinia=nulla&erat=ut&vestibulum=erat&sed=id&magna=mauris&at=vulputate&nunc=elementum&commodo=nullam&placerat=varius', 18);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('http://csmonitor.com/posuere/cubilia/curae/duis/faucibus/accumsan/odio.xml?porttitor=facilisi&lacus=cras&at=non&turpis=velit&donec=nec&posuere=nisi&metus=vulputate&vitae=nonummy&ipsum=maecenas&aliquam=tincidunt&non=lacus&mauris=at&morbi=velit&non=vivamus&lectus=vel&aliquam=nulla&sit=eget&amet=eros&diam=elementum&in=pellentesque&magna=quisque&bibendum=porta&imperdiet=volutpat&nullam=erat&orci=quisque&pede=erat&venenatis=eros&non=viverra&sodales=eget&sed=congue&tincidunt=eget&eu=semper&felis=rutrum&fusce=nulla&posuere=nunc&felis=purus&sed=phasellus&lacus=in&morbi=felis&sem=donec&mauris=semper&laoreet=sapien&ut=a&rhoncus=libero&aliquet=nam&pulvinar=dui&sed=proin', 19);
+insert into socialmedia (SocialMediaAccount, ShowID) values ('https://addthis.com/luctus/et/ultrices/posuere/cubilia/curae/donec.jpg?volutpat=parturient&in=montes&congue=nascetur&etiam=ridiculus&justo=mus&etiam=etiam&pretium=vel&iaculis=augue&justo=vestibulum&in=rutrum&hac=rutrum&habitasse=neque&platea=aenean&dictumst=auctor&etiam=gravida&faucibus=sem&cursus=praesent&urna=id&ut=massa&tellus=id&nulla=nisl&ut=venenatis&erat=lacinia&id=aenean&mauris=sit&vulputate=amet&elementum=justo&nullam=morbi&varius=ut&nulla=odio&facilisi=cras&cras=mi&non=pede&velit=malesuada', 20);
+
+
+
+
+
+
+
+
+
+insert into showcategory (ShowCategoryID, Category) values (1, 'Comedy|Documentary|Musical');
+insert into showcategory (ShowCategoryID, Category) values (2, 'Documentary');
+insert into showcategory (ShowCategoryID, Category) values (3, 'Adventure|Children');
+insert into showcategory (ShowCategoryID, Category) values (4, 'Adventure|Comedy|Sci-Fi');
+insert into showcategory (ShowCategoryID, Category) values (5, 'Animation|Comedy|Sci-Fi');
+insert into showcategory (ShowCategoryID, Category) values (6, 'Documentary');
+insert into showcategory (ShowCategoryID, Category) values (7, 'Drama');
+insert into showcategory (ShowCategoryID, Category) values (8, 'Comedy|Mystery');
+insert into showcategory (ShowCategoryID, Category) values (9, 'Drama|Romance');
+insert into showcategory (ShowCategoryID, Category) values (10, 'Action|Drama|Thriller');
+insert into showcategory (ShowCategoryID, Category) values (11, 'Crime|Drama|Mystery|Thriller');
+insert into showcategory (ShowCategoryID, Category) values (12, 'Comedy|Drama');
+insert into showcategory (ShowCategoryID, Category) values (13, 'Action');
+insert into showcategory (ShowCategoryID, Category) values (14, 'Action|Thriller');
+insert into showcategory (ShowCategoryID, Category) values (15, 'Documentary');
+insert into showcategory (ShowCategoryID, Category) values (16, 'Drama|Romance');
+insert into showcategory (ShowCategoryID, Category) values (17, 'Action|Adventure|Drama|Thriller|Western');
+insert into showcategory (ShowCategoryID, Category) values (18, 'Drama|Romance');
+insert into showcategory (ShowCategoryID, Category) values (19, 'Comedy|Documentary|Drama');
+insert into showcategory (ShowCategoryID, Category) values (20, 'Drama|Mystery|Thriller');
+
+
+
+
+
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (1, 'ability', 'http://dummyimage.com/185x175.png/cc0000/ffffff', 'Quisque ut erat.', 'suspendisse', '11:10 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (2, 'leading edge', 'http://dummyimage.com/113x178.jpg/cc0000/ffffff', 'Sed accumsan felis.', 'libero', '7:13 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (3, 'stable', 'http://dummyimage.com/230x121.bmp/5fa2dd/ffffff', 'Nulla facilisi. Cras non velit nec nisi vulputate nonummy.', 'vivamus', '11:46 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (4, 'contextually-based', 'http://dummyimage.com/220x127.bmp/dddddd/000000', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', 'in', '6:19 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (5, 'Multi-tiered', 'http://dummyimage.com/141x216.bmp/ff4444/ffffff', 'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.', 'nulla', '1:30 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (6, 'groupware', 'http://dummyimage.com/165x231.png/5fa2dd/ffffff', 'Donec ut mauris eget massa tempor convallis.', 'id', '10:13 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (7, 'bottom-line', 'http://dummyimage.com/242x160.png/5fa2dd/ffffff', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 'sit', '12:24 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (8, 'data-warehouse', 'http://dummyimage.com/126x214.jpg/ff4444/ffffff', 'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.', 'mauris', '9:33 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (9, 'Upgradable', 'http://dummyimage.com/178x166.jpg/cc0000/ffffff', 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 'nulla', '7:14 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (10, 'Public-key', 'http://dummyimage.com/183x118.bmp/cc0000/ffffff', 'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.', 'ligula', '1:38 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (11, 'artificial intelligence', 'http://dummyimage.com/127x238.bmp/ff4444/ffffff', 'Fusce posuere felis sed lacus.', 'nulla', '6:53 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (12, 'product', 'http://dummyimage.com/222x121.jpg/dddddd/000000', 'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'quisque', '2:02 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (13, 'homogeneous', 'http://dummyimage.com/162x106.png/ff4444/ffffff', 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.', 'convallis', '4:35 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (14, 'Re-engineered', 'http://dummyimage.com/236x129.jpg/dddddd/000000', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 'vivamus', '10:20 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (15, 'zero tolerance', 'http://dummyimage.com/138x224.png/5fa2dd/ffffff', 'Duis bibendum. Morbi non quam nec dui luctus rutrum.', 'neque', '9:37 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (16, 'hybrid', 'http://dummyimage.com/167x209.png/cc0000/ffffff', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'suspendisse', '11:23 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (17, 'framework', 'http://dummyimage.com/127x243.png/ff4444/ffffff', 'Donec semper sapien a libero.', 'sed', '11:36 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (18, 'superstructure', 'http://dummyimage.com/210x108.png/ff4444/ffffff', 'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.', 'cursus', '8:01 PM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (19, 'website', 'http://dummyimage.com/144x237.bmp/dddddd/000000', 'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.', 'et', '6:35 AM');
+insert into showdesc (ShowID, ShowName, ShowLogo, ShowBio, ShowDay, ShowTime) values (20, 'structure', 'http://dummyimage.com/215x149.bmp/cc0000/ffffff', 'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.', 'cursus', '9:33 PM');
+
+
+
+
+
+
+
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (1, 'Self-enabling', 'http://dummyimage.com/147x234.png/5fa2dd/ffffff', 'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.', 12, 16);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (2, 'ability', 'http://dummyimage.com/226x138.jpg/dddddd/000000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.', 5, 10);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (3, 'Assimilated', 'http://dummyimage.com/217x105.jpg/5fa2dd/ffffff', 'Ut at dolor quis odio consequat varius. Integer ac leo.', 13, 14);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (4, 'throughput', 'http://dummyimage.com/238x164.bmp/5fa2dd/ffffff', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.', 20, 11);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (5, 'Graphic Interface', 'http://dummyimage.com/233x148.bmp/5fa2dd/ffffff', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 1, 13);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (6, 'Synergized', 'http://dummyimage.com/134x104.jpg/cc0000/ffffff', 'Nullam molestie nibh in lectus.', 14, 20);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (7, 'transitional', 'http://dummyimage.com/152x162.bmp/dddddd/000000', 'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 11, 15);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (8, 'user-facing', 'http://dummyimage.com/248x227.bmp/ff4444/ffffff', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.', 13, 1);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (9, 'incremental', 'http://dummyimage.com/242x202.png/ff4444/ffffff', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 16, 16);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (10, 'collaboration', 'http://dummyimage.com/244x197.png/cc0000/ffffff', 'Nulla nisl. Nunc nisl.', 6, 4);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (11, 'contextually-based', 'http://dummyimage.com/145x155.bmp/cc0000/ffffff', 'Quisque porta volutpat erat.', 20, 11);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (12, 'middleware', 'http://dummyimage.com/107x214.bmp/cc0000/ffffff', 'Suspendisse accumsan tortor quis turpis. Sed ante.', 20, 17);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (13, 'Mandatory', 'http://dummyimage.com/143x131.png/ff4444/ffffff', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 5, 1);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (14, 'Switchable', 'http://dummyimage.com/162x244.bmp/cc0000/ffffff', 'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.', 13, 8);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (15, 'task-force', 'http://dummyimage.com/161x208.jpg/ff4444/ffffff', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 17, 19);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (16, 'system-worthy', 'http://dummyimage.com/201x112.png/dddddd/000000', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.', 13, 14);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (17, 'Stand-alone', 'http://dummyimage.com/156x163.jpg/cc0000/ffffff', 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.', 15, 8);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (18, 'local', 'http://dummyimage.com/248x158.bmp/ff4444/ffffff', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 12, 20);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (19, 'disintermediate', 'http://dummyimage.com/148x148.bmp/5fa2dd/ffffff', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 20, 4);
+insert into showRequest (ShowRequestID, ReqShowName, ReqShowLogo, ReqShowBio, DJID, ManID) values (20, 'time-frame', 'http://dummyimage.com/221x224.png/ff4444/ffffff', 'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.', 12, 15);
+
+
+
+
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Innovative', 'Programmable 3rd generation task-force', 'Action|Horror', 1, 'aballingera@slashdot.org');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('protocol', 'Switchable contextually-based functionalities', 'Documentary', 2, 'aschlagh@narod.ru');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('database', 'Down-sized 4th generation productivity', 'Comedy', 3, 'charrhyd@newsvine.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Open-architected', 'Robust reciprocal analyzer', 'Drama', 4, 'clawrenson1@xrea.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Intuitive', 'Visionary didactic circuit', 'Action|Horror|Sci-Fi|Thriller', 5, 'dsimisonj@army.mil');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Expanded', 'Balanced bifurcated superstructure', 'Documentary', 6, 'ebroderick0@chronoengine.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Quality-focused', 'Open-source composite protocol', 'Documentary', 7, 'escarratt6@ucoz.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Configurable', 'Cross-group secondary artificial intelligence', 'Drama', 8, 'fdeambrosii@answers.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('collaboration', 'Versatile needs-based interface', 'Drama', 9, 'freisine@edublogs.org');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('system engine', 'Multi-layered optimizing interface', 'Drama', 10, 'gdutteridge4@bing.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('asymmetric', 'Decentralized even-keeled adapter', 'Drama|Mystery|Romance|Thriller', 11, 'gdutteridge4@bing.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Multi-layered', 'Horizontal context-sensitive implementation', 'Drama', 12, 'freisine@edublogs.org');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('Inverse', 'Public-key intermediate functionalities', 'Drama|Thriller', 13, 'fdeambrosii@answers.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('interactive', 'Right-sized multimedia benchmark', 'Drama|Sci-Fi|Thriller', 14, 'ebroderick0@chronoengine.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('client-driven', 'Cross-group empowering complexity', 'Action|Sci-Fi', 15, 'dsimisonj@army.mil');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('frame', 'Persevering stable process improvement', 'Comedy|Drama|Romance', 16, 'clawrenson1@xrea.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('strategy', 'Configurable eco-centric artificial intelligence', 'Comedy', 17, 'charrhyd@newsvine.com');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('foreground', 'Intuitive grid-enabled product', 'Drama|Mystery', 18, 'smcgebenayh@tuttocitta.it');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('software', 'Digitized responsive middleware', 'Comedy', 19, 'aschlagh@narod.ru');
+insert into songrequest (SongName, SongArtist, SongGenre, SongRequestID, ListenerEmail) values ('complexity', 'Triple-buffered impactful matrices', 'Comedy|Romance', 20, 'aballingera@slashdot.org');
+
+
+
+insert into views (DJID, SongRequestID) values (5, 1);
+insert into views (DJID, SongRequestID) values (1, 2);
+insert into views (DJID, SongRequestID) values (20, 3);
+insert into views (DJID, SongRequestID) values (15, 4);
+insert into views (DJID, SongRequestID) values (5, 5);
+insert into views (DJID, SongRequestID) values (12, 6);
+insert into views (DJID, SongRequestID) values (12, 7);
+insert into views (DJID, SongRequestID) values (7, 8);
+insert into views (DJID, SongRequestID) values (18, 9);
+insert into views (DJID, SongRequestID) values (6, 10);
+insert into views (DJID, SongRequestID) values (20, 11);
+insert into views (DJID, SongRequestID) values (16, 12);
+insert into views (DJID, SongRequestID) values (13, 13);
+insert into views (DJID, SongRequestID) values (5, 14);
+insert into views (DJID, SongRequestID) values (12, 15);
+insert into views (DJID, SongRequestID) values (2, 16);
+insert into views (DJID, SongRequestID) values (6, 17);
+insert into views (DJID, SongRequestID) values (9, 18);
+insert into views (DJID, SongRequestID) values (14, 19);
+insert into views (DJID, SongRequestID) values (5, 20);
+
+
+
+
+
+
+
+
